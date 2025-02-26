@@ -1,0 +1,31 @@
+name: geno_gnn
+channels:
+  - defaults
+dependencies:
+  - python=3.7.16
+  - pytorch=1.13.0
+  - cudatoolkit=11.7
+  - numpy=1.21.6
+  - pandas=1.3.5
+  - scikit-learn=1.0.2
+  - scipy=1.7.3
+  - matplotlib=3.5.3
+  - seaborn=0.12.0rc0
+  - pip
+  - pip:
+      - biopython==1.81
+      - torch==1.13.0+cu117 --find-links https://download.pytorch.org/whl/torch_stable.html
+      - torch-geometric==2.3.1
+      - pyg-lib==0.2.0+pt113cu117 --find-links https://data.pyg.org/whl/torch-1.13.0+cu117.html
+      - torch-cluster==1.6.1+pt113cu117 --find-links https://data.pyg.org/whl/torch-1.13.0+cu117.html
+      - torch-scatter==2.1.1+pt113cu117 --find-links https://data.pyg.org/whl/torch-1.13.0+cu117.html
+      - torch-sparse==0.6.17+pt113cu117 --find-links https://data.pyg.org/whl/torch-1.13.0+cu117.html
+      - torch-spline-conv==1.2.2+pt113cu117 --find-links https://data.pyg.org/whl/torch-1.13.0+cu117.html
+      - torchaudio==0.13.0+cu117 --find-links https://download.pytorch.org/whl/torch_stable.html
+      - torchvision==0.14.0+cu117 --find-links https://download.pytorch.org/whl/torch_stable.html
+      - numba==0.56.4
+      - umap-learn==0.5.6
+      - pynndescent==0.5.12
+      - tqdm==4.66.2
+      - requests==2.31.0
+      - psutil==5.9.8
