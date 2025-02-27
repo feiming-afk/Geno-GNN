@@ -8,10 +8,9 @@ from sklearn.metrics import r2_score
 import torch
 from torch import nn
 from torch_geometric.loader import DataLoader
-from models1 import REGNN, GNN, old_GNN
+from models import REGNN, GNN, old_GNN
 
 from geno_dataset import GENODataset
-from genofull_dataset import GENOFULLDataset
 from utils import EarlyStopping, args_print, set_seed
 import matplotlib.pyplot as plt
 import wandb

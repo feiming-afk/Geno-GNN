@@ -120,7 +120,7 @@ def stat_tf_by_01(df):
     print("第一个DataFrame:\n", result_df)
     return result_df
 
-# 加载数据 (请替换'data.csv'为你的文件路径)
+# 加载数据
 result_df = stat_tf_by_01(df)
 result_df.to_csv('results/result_tf_mp.csv', index=False)
 result_df2 = result_df[(result_df['TF_Value'] == 'T') & (result_df['Value'] == 1)]

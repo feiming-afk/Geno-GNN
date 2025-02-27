@@ -9,11 +9,11 @@ from scipy.stats import spearmanr, pearsonr
 import torch
 from torch import nn
 from torch_geometric.loader import DataLoader
-from function.models import REGNN, GNN, old_GNN
+from models import REGNN, GNN, old_GNN
 import pandas as pd
-from function.escapev4_dataset import EscapeV4Dataset
+from escapev4_dataset import EscapeV4Dataset
 
-from function.utils import EarlyStopping, args_print, set_seed
+from utils import EarlyStopping, args_print, set_seed
 import matplotlib.pyplot as plt
 
 from sklearn.model_selection import KFold
