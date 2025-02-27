@@ -34,3 +34,7 @@ conda activate geno_gnn
    pip install /path/to/downloaded_wheel.whl
    ```
    - Repeat until all dependencies from `environment.yaml` are installed.
+
+## Data availability
+
+ACE2 affinity datasets for training and testing the Geno-GNN model are sourced from [Starr et al., 2022](https://doi.org/10.1371/journal.ppat.1010951), [Taylor et al., 2024](https://doi.org/10.1093/ve/veae067), and [Moulana et al., 2022](https://doi.org/10.1038/s41467-022-34506-z).</br>Immune escape datasets are obtained from [Cao et al., 2022a](https://doi.org/10.1038/s41586-022-04980-y), [Cao et al., 2022b](https://doi.org/10.1038/s41586-021-04385-3), and [Cao et al., 2023](https://doi.org/10.1038/s41586-022-05644-7).</br>The GISAID dataset, requiring registration and authentication, is not provided here but can be accessed via [GISAID](https://www.gisaid.org).
